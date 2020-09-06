@@ -1,0 +1,213 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color:rgba(224, 223, 218,.2);
+}
+
+ @media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+float: left;
+
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+ float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media  (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+ float: left;
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+h1{
+text-align: center;
+color: rgba(252, 161, 3,.8);
+font-size: 35pt;
+font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.row {
+  width: 100%;
+}
+
+
+
+.boxes{
+	border: 1px solid black;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 17px;
+
+}
+
+
+.contents{
+text-align: center;
+  clear:both;
+	font-family: Comic Sans MS, Helvetica, sans-serif;
+	margin: 9px;
+	background: rgba(255,255,255,.75);
+	color:black;
+	font-weight: 526;
+
+}
+
+.heads{
+	border: 1px solid black;
+background-color: rgba(0,0,0,.7);
+	margin-bottom: 9px;
+	position: relative;
+	float: right;
+	font-size: 19pt;
+	font-weight: 550;
+	color:white;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 15px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	
+
+}
+
+
+#box1{
+	background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190808-baked-drumsticks-0185-landscape-pf-1567089281.jpg?crop=0.668xw:1.00xh;0.146xw,0&resize=480:*");
+
+}
+
+#box2{
+	background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/6/19/0/WU0501H_peppercorn-roasted-beef-tenderloin-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1552487731049.jpeg");
+}
+
+#box3{
+	background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url("https://cdn.yemek.com/mncrop/600/315/uploads/2020/04/sushi-tarifi.jpg");
+}
+
+
+
+
+
+
+
+
+
